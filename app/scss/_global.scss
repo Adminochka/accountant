@@ -1,0 +1,100 @@
+html {
+    scroll-behavior: smooth;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	overflow-x: hidden;
+	min-width: 320px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	color: $default;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+
+.main {
+	flex: 1 0 auto;
+}
+.footer {
+	flex: 0 0 auto;
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.title {
+	font-size: 36px;
+	line-height: 46px;
+	color: $title;
+	text-align: center;
+    max-width: 640px;
+    margin: 0 auto 40px;
+}
+
+.titletext {
+	font-size: 24px;
+	line-height: 32px;
+	color: $title;
+	max-width: 600px;
+    text-align: center;
+    margin: 0 auto 60px;
+	animation-delay: 0.5s;
+}
+
+h2 {
+	font-size: 36px;
+	line-height: 46px;
+	color: $title;
+}
+
+h3 {
+	font-size: 24px;
+	line-height: 32px;
+	color: $title;
+}
+
+.form-input {
+	padding: 19px 20px;
+	line-height: 18px;
+}
+
+.btn {
+	line-height: 18px;
+	font-weight: 700;
+	color: #fff;
+	border: 1px solid $title;
+	border-radius: 28px;
+	background-color: $title;
+	cursor: pointer;
+	outline: none;
+	padding: 19px 40px;
+}
+
+.form-textarea {
+	padding: 19px 20px;
+	resize: none;
+}
+
+.form-input::placeholder,
+.form-textarea::placeholder,
+.btn::placeholder {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 20px;
+	color: $default;
+}

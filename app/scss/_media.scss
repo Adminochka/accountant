@@ -1,0 +1,1022 @@
+@media (max-width: 1100px) {
+    .title {
+        font-size: 28px;
+        line-height: 36px;
+        margin: 0 auto 18px;
+    }
+    .titletext {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .top {
+        &__title {
+            font-size: 36px;
+            line-height: 52px;
+            margin-bottom: 16px;
+            max-width: 800px;
+        }
+        &__text {
+            font-size: 20px;
+            line-height: 24px;
+        }
+    }
+    .advantages {
+        &__item-title {
+            font-size: 21px;
+            line-height: 28px;
+            margin-bottom: 15px;
+        }
+    }
+    .contacts {
+        &__inner {
+            max-width: 960px;
+            margin: 0 auto;
+        }
+        &__content {
+            width: 245px;
+        }
+    }
+    .page-top {
+        &__title {
+            font-size: 30px;
+            line-height: 40px;
+            margin: 0 auto 20px;
+        }
+        &__text {
+            font-size: 22px;
+            line-height: 30px;
+        }
+    }
+    .chief {
+        &__title {
+            margin-bottom: 80px;
+        }
+        &__text {
+            font-size: 24px;
+            line-height: 40px;
+            margin-bottom: 35px;
+        }
+        &__img {
+            height: 390px;
+        }
+    }
+    .contacts-page {
+        &__info {
+            margin-bottom: 90px;
+        }
+    }
+}
+
+/**********************************************/
+
+@media (max-width: 960px) {
+    .title {
+        margin: 0 auto 18px;
+    }
+    .titletext {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .advantages {
+        &__list {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+    .page-top {
+        margin-bottom: 90px;
+        &__title {
+            font-size: 28px;
+            line-height: 36px;
+            margin: 0 auto 18px;
+        }
+        &__text {
+            font-size: 20px;
+            line-height: 28px;
+            max-width: 700px;
+        }
+    }
+    .chief {
+        &__title {
+            margin-bottom: 80px;
+        }
+        &__text {
+            font-size: 22px;
+            line-height: 36px;
+        }
+        &__img {
+            height: 390px;
+        }
+    }
+    .team {
+        &__titletext {
+            max-width: 100%;
+            width: 100%;
+        }
+        &__list {
+            grid-template-columns: repeat(3, 1fr);
+            gap: 40px;
+        }
+        &__item {
+            padding-bottom: 20px;
+        }
+        &__item-img {
+            height: 320px;
+        }
+    }
+    .services-page {
+        &__list-wrapper {
+            margin-bottom: 90px;
+        }
+        &__titletext {
+            margin-bottom: 70px;
+        }
+        &__list {
+            gap: 10px;
+        }
+        &__item {
+            padding: 25px 15px 20px;
+        }
+        &__item::before {
+            left: 15px;
+        }
+    }
+    .contacts-page {
+        &__info {
+            margin-bottom: 80px;
+        }
+    }
+}
+
+/**********************************************/
+
+@media (max-width: 860px) {
+    .title {
+        font-size: 26px;
+        line-height: 34px;
+        margin: 0 auto 16px;
+    }
+    .titletext {
+        font-size: 18px;
+        line-height: 26px;
+        max-width: 500px;
+        margin: 0 auto 50px;
+    }
+    .footer {
+        &__logo {
+            margin-bottom: 30px;
+        }
+        &__content {
+            display: block;
+        }
+        &__box {
+            display: flex;
+            justify-content: space-between;
+        }
+        &__timetable {
+            margin-left: 30px;
+        }
+        &__contacts {
+            margin-left: 30px;
+        }
+    }
+    .top {
+        &__title {
+            line-height: 44px;
+            margin-bottom: 12px;
+        }
+    }
+    .services {
+        padding-top: 80px;
+        margin-bottom: 90px;
+        &__item {
+            gap: 35px;
+        }
+    }
+    .consultation {
+        margin-bottom: 90px;
+        padding: 40px 0;
+        &__inner {
+            max-width: 510px;
+            margin: 0 auto;
+        }
+        &__form {
+            display: block;
+        }
+        &__form-input {
+            width: 100%;
+            margin-bottom: 20px;
+            padding: 16px 18px;
+        }
+        &__form-btn {
+            width: 100%;
+        }
+    }
+    .advantages {
+        margin-bottom: 80px;
+        &__item {
+            padding: 20px 10px;
+        }
+    }
+    .contacts {
+        margin-bottom: 90px;
+        &__inner {
+            display: block;
+            max-width: 510px;
+        }
+        &__content {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            margin: 0 auto 35px;
+        }
+        &__content-link {
+            font-size: 18px;
+            line-height: 22px;
+            padding-bottom: 6px;
+        }
+        &__content-item--phone {
+            padding-right: 20px;
+            width: 50%;
+        }
+        &____content-item--email {
+            width: 50%;
+        }
+        &__content-item--address {
+            width: 100%;
+        }
+        &__content-address {
+            font-size: 18px;
+            line-height: 24px;
+        }
+        &__form {
+            width: 100%;
+            margin-left: 0;
+        }
+        &__form-input {
+            margin-bottom: 20px;
+            padding: 16px 18px;
+        }
+        &__form-textarea {
+            margin-bottom: 20px;
+        }
+        &__form-btn {
+            width: 100%;
+        }
+    }
+    .page-top {
+        margin-bottom: 80px;
+        &__inner {
+            min-height: 350px;
+        }
+        &__title {
+            font-size: 26px;
+            line-height: 34px;
+            margin: 0 auto 16px;
+        }
+        &__text {
+            font-size: 18px;
+            line-height: 26px;
+            max-width: 650px;
+        }
+    }
+    .chief {
+        margin-bottom: 90px;
+        &__title {
+            margin-bottom: 60px;
+        }
+        &__text {
+            font-size: 20px;
+            line-height: 34px;
+        }
+        &__name {
+            font-size: 20px;
+            line-height: 26px;
+            margin-bottom: 6px;
+        }
+        &__img {
+            height: 360px;
+            margin-left: 30px;
+        }
+    }
+    .team {
+        &__titletext {
+            max-width: 100%;
+            width: 100%;
+        }
+        &__list {
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px 40px;
+        }
+        &__item {
+            padding-bottom: 15px;
+        }
+        &__item-img {
+            height: 300px;
+        }
+    }
+    .services-page {
+        &__list-wrapper {
+            margin-bottom: 70px;
+        }
+        &__titletext {
+            margin-bottom: 60px;
+        }
+        &__item {
+            padding: 25px 15px 15px;
+        }
+    }
+    .contacts-page {
+        &__info {
+            margin-bottom: 70px;
+        }
+    }
+}
+
+
+/*************************************************/
+
+@media (max-width: 768px) {
+    h3 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .container {
+        padding: 0 15px;
+    }
+    .title {
+        font-size: 24px;
+        line-height: 32px;
+        margin: 0 auto 12px;
+    }
+    .titletext {
+        font-size: 16px;
+        line-height: 24px;
+        max-width: 440px;
+        margin: 0 auto 40px;
+    }
+    .menu {
+        order: 1;
+        &__btn {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0;
+            width: 28px;
+            height: 24px;
+            margin-left: 10px;
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+            transition: all 0ms 300ms;
+        }
+        &__btn-line {
+            display: block;
+            position: relative;
+            width: 100%;
+            height: 3px;
+            background-color: $title;
+        }
+        &__btn.menu__btn--active .menu__btn-line {
+            background-color: transparent;
+        }
+        &__btn-line::before,
+        &__btn-line::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            width: 100%;
+            height: 3px;
+            background-color: $title;
+        }
+        &__btn-line::before {
+            top: -7px;
+            transition: bottom 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
+        }
+        &__btn-line::after {
+            bottom: -7px;
+            transition: top 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
+        }
+        &__btn.menu__btn--active .menu__btn-line::before{
+            top: 0;
+            transform: rotate(45deg);
+        }
+        &__btn.menu__btn--active .menu__btn-line::after{
+            top: 0;
+            transform: rotate(-45deg);
+        }
+        &__list {
+            transform: translateY(-450px);
+            position: absolute;
+            top: 71px;
+            left: 0;
+            right: 0;
+            background: rgba(#fff, .8);
+            display: block;
+            text-align: center;
+            font-size: 18px;
+            color: $title;
+            border-bottom: 1px solid $title;
+            transition: all 600ms;
+            z-index: 5;
+        }
+        &__list.menu__list--active {
+            transform: translateY(0);
+            transition: all 600ms;
+        }
+        &__list-link--active {
+            border-bottom: none;
+        }
+        &__list-item {
+            padding: 0 10px;
+        }
+        &__list-item:first-child {
+            padding-top: 20px;
+        }
+        &__list-item:last-child {
+            padding-bottom: 20px;
+        }
+        &__list-link {
+            display: block;
+            padding: 10px 0;
+        }
+    }
+    .top {
+        &__title {
+            font-size: 32px;
+            line-height: 38px;
+        }
+        &__text {
+            font-size: 18px;
+        }
+    }
+    .services {
+        margin-bottom: 80px;
+        &__item {
+            margin-bottom: 40px;
+        }
+        &__item-title {
+            margin-bottom: 12px;
+        }
+        &__item-img {
+            height: 320px;
+        }
+    }
+    .consultation {
+        margin-bottom: 80px;
+    }
+    .advantages {
+        margin-bottom: 70px;
+    }
+    .contacts {
+        margin-bottom: 80px;
+    }
+    .page-top {
+        margin-bottom: 75px;
+        &__inner {
+            min-height: 320px;
+            padding: 30px 0;
+        }
+        &__title {
+            font-size: 24px;
+            line-height: 32px;
+            margin: 0 auto 12px;
+        }
+        &__text {
+            font-size: 16px;
+            line-height: 24px;
+            max-width: 500px;
+        }
+    }
+    .chief {
+        margin-bottom: 70px;
+        &__title {
+            margin-bottom: 50px;
+        }
+        &__text {
+            font-size: 18px;
+            line-height: 28px;
+        }
+        &__name {
+            font-size: 18px;
+            line-height: 24px;
+            margin-bottom: 6px;
+        }
+        &__img {
+            height: 330px;
+            margin-left: 25px;
+        }
+    }
+    .team {
+        &__titletext {
+            max-width: 100%;
+            width: 100%;
+        }
+        &__list {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 25px 30px;
+        }
+        &__item {
+            max-width: 250px;
+            margin: 0 auto;
+        }
+    }
+    .services-page {
+        &__list-wrapper {
+            margin-bottom: 70px;
+        }
+        &__list {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        &__titletext {
+            margin-bottom: 50px;
+        }
+    }
+    .contacts-page {
+        &__info {
+            margin-bottom: 80px;
+        }
+    }
+    .map {
+        &__size {
+            height: 400px;
+        }
+    }
+}
+
+/**********************************************************/
+
+@media (max-width: 568px) {
+    body {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    h3 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .form-input::placeholder,
+    .form-textarea::placeholder,
+    .btn::placeholder {
+        font-size: 14px;
+    }
+    .title {
+        margin: 0 auto 10px;
+    }
+    .logo {
+        font-size: 22px;
+    }
+    .header {
+        &__inner {
+            height: 60px;
+        }
+        &__phone {
+            font-size: 13px;
+        }
+    }
+    .menu {
+        &__list {
+            top: 61px;
+        }
+    }
+    .footer {
+        font-size: 13px;
+        line-height: 24px;
+        padding: 30px 0;
+        &__logo {
+            margin-bottom: 20px;
+            font-size: 18px;
+        }
+        &__box {
+            justify-content: space-around;
+        }
+        &__contacts {
+            margin-bottom: 15px;
+        }
+        &__title {
+            margin-bottom: 8px;
+            font-size: 15px;
+        }
+        &__timetable {
+            display: none;
+        }
+        &__contacts--phone::before,
+        &__contacts--email::before {
+            width: 14px;
+            height: 14px;
+        }
+    }
+    .top {
+        &__title {
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
+    }
+    .services {
+        padding-top: 60px;
+        &__item {
+            display: block;
+        }
+        &__item-img {
+            width: 100%;
+            margin-bottom: 25px;
+            height: 250px;
+        }
+        &__item-content {
+            width: 100%;
+        }
+    }
+    .consultation {
+        &__inner {
+            max-width: 510px;
+            margin: 0 auto;
+            padding: 55px 20px 65px;
+        }
+        &__form {
+            display: block;
+        }
+        &__form-input {
+            width: 100%;
+            margin-bottom: 20px;
+            padding: 16px 18px;
+        }
+        &__form-btn {
+            width: 100%;
+            padding: 16px 40px;
+        }
+    }
+    .advantages {
+        margin-bottom: 55px;
+        &__list {
+            display: block;
+        }
+        &__item {
+            max-width: 350px;
+            margin: 0 auto 10px;
+        }
+        &__item-img {
+            margin-bottom: 15px;
+            img {
+                width: 70px;
+            }
+        }
+        &__item-title {
+            font-size: 20px;
+        }
+    }
+    .contacts {
+        margin-bottom: 60px;
+    }
+    .page-top {
+        margin-bottom: 60px;
+        &__inner {
+            min-height: 280px;
+        }
+    }
+    .chief {
+        margin-bottom: 40px;
+        &__title {
+            margin-bottom: 40px;
+        }
+        &__inner {
+            flex-direction: column;
+        }
+        &__content {
+            max-width: 340px;
+        }
+        &__text {
+            margin-bottom: 25px;
+        }
+        &__img {
+            order: -1;
+            margin-bottom: 20px;
+            margin-left: 0;
+        }
+    }
+    .team {
+        margin-bottom: 50px;
+        &__titletext {
+            max-width: 100%;
+            width: 100%;
+        }
+        &__list {
+            gap: 20px;
+        }
+        &__item {
+            max-width: 210px;
+        }
+        &__item-name {
+            font-size: 18px;
+        }
+        &__item-img {
+            height: 260px;
+        }
+    }
+    .services-page {
+        &__list-wrapper {
+            margin-bottom: 50px;
+        }
+        &__list {
+            grid-template-columns: repeat(1, 1fr);
+        }
+        &__titletext {
+            margin-bottom: 40px;
+        }
+        &__item {
+            padding: 25px 8px 15px;
+        }
+        &__item::before {
+            left: 8px;
+        }
+    }
+    .contacts-page {
+        &__info {
+            margin-bottom: 70px;
+        }
+    }
+}
+
+/**********************************************************/
+
+@media (max-width: 420px) {
+    .container {
+        padding: 0 10px;
+    }
+    .title {
+        font-size: 22px;
+        line-height: 28px;
+        margin: 0 auto 10px;
+    }
+    .titletext {
+        font-size: 14px;
+        line-height: 20px;
+        margin: 0 auto 30px;
+    }
+    .top {
+        &__text {
+            font-size: 16px;
+        }
+    }
+    .services {
+        margin-bottom: 65px;
+        &__title {
+            font-size: 18px;
+            line-height: 24px;
+            margin-bottom: 10px;
+        }
+        &__item-img {
+            margin-bottom: 20px;
+            height: 220px;
+        }
+        &__item-title {
+            margin-bottom: 10px;
+            font-size: 20px;
+            line-height: 26px;
+        }
+    }
+    .consultation {
+        margin-bottom: 65px;
+        &__inner {
+            padding: 45px 20px 55px;
+        }
+        &__form-input {
+            padding: 14px 16px;
+        }
+        &__form-btn {
+            padding: 14px 40px;
+        }
+    }
+    .advantages {
+        margin-bottom: 35px;
+        &__item {
+            padding: 15px 10px 25px;
+        }
+        &__item-img {
+            margin-bottom: 12px;
+            img {
+                width: 65px;
+            }
+        }
+        &__item-title {
+            font-size: 18px;
+            line-height: 24px;
+            margin-bottom: 10px;
+        }
+    }
+    .contacts {
+        margin-bottom: 65px;
+        &__content {
+            margin-bottom: 25px;
+        }
+        &__content-item {
+            margin-bottom: 15px;
+        }
+        &__content-subtitle {
+            margin-bottom: 10px;
+        }
+        &__content-link {
+            font-size: 16px;
+            line-height: 18px;
+        }
+        &__content-address {
+            font-size: 16px;
+            line-height: 22px;
+        }
+        &__form-input {
+            padding: 14px 16px;
+        }
+        &__form-textarea {
+            padding: 14px 16px;
+            height: 120px;
+        }
+        &__form-btn {
+            padding: 14px 40px;
+        }
+    }
+    .page-top {
+        margin-bottom: 55px;
+        &__inner {
+            min-height: 250px;
+            padding: 20px 0;
+        }
+        &__title {
+            font-size: 22px;
+            line-height: 28px;
+            margin: 0 auto 10px;
+        }
+        &__text {
+            font-size: 14px;
+            line-height: 20px;
+        }
+    }
+    .chief {
+        margin-bottom: 50px;
+        &__title {
+            margin-bottom: 35px;
+        }
+        &__content {
+            max-width: 320px;
+            padding: 15px 0;
+        }
+        &__text {
+            margin-bottom: 20px;
+            font-size: 16px;
+            line-height: 26px;
+        }
+        &__name {
+            font-size: 16px;
+            line-height: 22px;
+        }
+        &__img {
+            order: -1;
+            margin-bottom: 20px;
+            margin-left: 0;
+        }
+    }
+    .team {
+        margin-bottom: 35px;
+        &__titletext {
+            max-width: 100%;
+            width: 100%;
+        }
+        &__list {
+            display: block;
+        }
+        &__item {
+            max-width: 220px;
+            margin-bottom: 20px;
+        }
+        &__item-img {
+            height: 250px;
+            margin-bottom: 15px;
+        }
+    }
+    .services-page {
+        &__list-wrapper {
+            margin-bottom: 40px;
+        }
+        &__titletext {
+            margin-bottom: 30px;
+        }
+    }
+    .contacts-page {
+        &__info {
+            margin-bottom: 55px;
+        }
+    }
+    .map {
+        &__size {
+            height: 320px;
+        }
+    }
+}
+
+/**********************************************************/
+
+@media (max-width: 400px) {
+    .title {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .footer {
+        &__address {
+            max-width: 110px;
+        }
+        &__title {
+            font-size: 14px;
+        }
+    }
+}
+
+/**********************************************************/
+
+@media (max-width: 375px) {
+    .logo {
+        font-size: 18px;
+    }
+    .header {
+        &__inner {
+            height: 50px;
+        }
+        &__phone {
+            font-size: 13px;
+        }
+    }
+    .menu {
+        &__list {
+            top: 51px;
+        }
+    }
+    .footer {
+        &__logo {
+            font-size: 16px;
+            margin-bottom: 15px;
+        }
+        &__content {
+            margin-bottom: 10px;
+        }
+        &__title {
+            margin-bottom: 5px;
+        }
+    }
+    .services {
+        margin-bottom: 50px;
+        &__item-img {
+            height: 180px;
+        }
+    }
+    .consultation {
+        margin-bottom: 50px;
+    }
+    .advantages {
+        margin-bottom: 25px;
+        &__item-img {
+            img {
+                width: 60px;
+            }
+        }
+        &__item-title {
+            margin-bottom: 10px;
+        }
+    }
+    .contacts {
+        margin-bottom: 50px;
+        &__content-item--phone {
+            width: 100%;
+            padding-right: 0;
+        }
+        &__content-item--email {
+            width: 100%;
+        }
+        &__content-link {
+            font-size: 14px;
+            padding-bottom: 4px;
+        }
+        &__content-address {
+            font-size: 14px;
+            line-height: 20px;
+        }
+    }
+    .page-top {
+        margin-bottom: 40px;
+    }
+    .chief {
+        margin-bottom: 40px;
+        &__title {
+            margin-bottom: 30px;
+        }
+        &__content {
+            padding: 10px 0;
+        }
+        &__text {
+            margin-bottom: 15px;
+        }
+    }
+    .services-page {
+        &__list-wrapper {
+            margin-bottom: 30px;
+        }
+        &__titletext {
+            margin-bottom: 20px;
+        }
+    }
+}
